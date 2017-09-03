@@ -1,11 +1,17 @@
-/*
-	Comment
-*/
+/* Basic parameters */
 
-a { /* Comment */ color: /* Comment */ Red; }
+* {
+  box-sizing: border-box;
+}
 
-.TestClass {
-	color: Black;
-	background-color: White;
-	text-align: left;
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
 }
