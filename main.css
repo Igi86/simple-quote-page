@@ -14,4 +14,32 @@ html, body {
 body {
 	width: 100%;
 	height: 100vh;
+	background: url('assets/freedom.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.wrapper {
+	padding-top: 4rem;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.quote {
+	font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+}
+
+.author {
+	font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    font-style: italic;
 }
