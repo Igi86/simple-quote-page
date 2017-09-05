@@ -5,14 +5,28 @@
   <title>Freedom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="languages.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="languages.js"></script>
 </head>
+
 <body>
   <div class="wrapper">
-    <p class="quote">"The freedom of Mankind does not lie in the fact that we can do what we want, but that we do not have to do that which we do not want."</p>
+    <p class="quote" id="quote">"The freedom of Mankind does not lie in the fact that we can do what we want, but that we do not have to do that which we do not want."</p>
     <p class="author">
 	<small>– Jean-Jacques Rousseau</small>
 	</p>
 </div>
+  <footer class="footer">
+	<button class="btn"><p id="btn">Choose your language</p></button>
+	<ul class="menu" id="lock">
+	  <li id="uk" onclick=uk()><a href="#"><img class="ico" src="assets/en.png">English</a></li>
+      <li id="hu" onclick=hu()><a href="#"><img class="ico" src="assets/hu.png">Hungarian</a></li>
+      <li id="it" onclick=it()><a href="#"><img class="ico" src="assets/it.png">Italian</a></li>
+      <li id="de" onclick=de()><a href="#"><img class="ico" src="assets/de.png">Deutsch</a></li>
+      <li id="fr" onclick=fr()><a href="#"><img class="ico" src="assets/fr.png">French</a></li>
+	</ul>
+  </footer>
 </body>
 </html>
